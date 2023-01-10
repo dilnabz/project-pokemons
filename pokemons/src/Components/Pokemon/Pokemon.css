@@ -1,0 +1,32 @@
+.avatar {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid green;
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pokemonName {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+}
+
+.pokemonStatus {
+  text-transform: uppercase;
+  border: 1px solid yellow;
+  border-radius: 10%;
+  background-color: yellow;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* .catch {
+  border: 1px solid red;
+  background-color: red;
+} */
